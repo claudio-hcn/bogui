@@ -336,6 +336,7 @@ tr {
     /* margin-top: 30px;
     width: 600px;
     border: solid 1px black; */
+    padding-left: 30px;
     margin-top: 10px;
     display: flex;
     flex-direction: column;
@@ -470,6 +471,10 @@ tr {
     }
 
     .fixed{
+        display: none;
+    }
+
+    .contenedor-footer{
         display: none;
     }
 
