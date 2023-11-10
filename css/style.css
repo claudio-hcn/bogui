@@ -336,14 +336,12 @@ tr {
     /* margin-top: 30px;
     width: 600px;
     border: solid 1px black; */
-    padding-left: 30px;
     margin-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     height:930px;
-    width: 300px;
+    width: 100%;
     
 }
 
@@ -384,7 +382,7 @@ tr {
 .botones{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    gap: 30px
 }
 
 .entrada{
@@ -474,8 +472,5 @@ tr {
         display: none;
     }
 
-    .contenedor-footer{
-        display: none;
-    }
 
 }
